@@ -13,7 +13,7 @@ def prime?(number)
 
 end# Add  code here!
 
-
+def prime?(n)
 m = 2
 while m <= n * n
   if n%m == 0
