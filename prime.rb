@@ -6,7 +6,8 @@ def prime?(number)
       true
     elsif number%i == 0 || number < 2
       false
-      
+    else
+      true
   end
 
 end# Add  code here!
