@@ -24,7 +24,7 @@ m = 2
     while n < m * m
       if n % m == 0
         false
-      elsif
+      else
         m += 1
       end
     else
