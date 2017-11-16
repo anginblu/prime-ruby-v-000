@@ -12,24 +12,3 @@ def prime?(number)
   end
 
 end# Add  code here!
-
-def prime?(n)
-m = 2
-  if n < 2
-    false
-  elsif n % m == 0
-    false
-  elsif
-    m += 1
-    if n < m * m
-      if n % m == 0
-        false
-      else
-        m += 1
-      end
-    else
-      true
-end
-  end
-  true
-end
