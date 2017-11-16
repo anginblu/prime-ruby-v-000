@@ -21,7 +21,7 @@ m = 2
     false
   elsif
     m += 1
-    while n < m * m
+    if n < m * m
       if n % m == 0
         false
       else
