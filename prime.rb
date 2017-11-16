@@ -8,7 +8,7 @@ def prime?(number)
   elsif number < 2
     false
   else
-      true
+    true
   end
 
 end# Add  code here!
