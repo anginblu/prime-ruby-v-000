@@ -16,4 +16,10 @@ end# Add  code here!
 
 m = 2
 while m <= n * n
-  m =+ 1 
+  if n%m == 0
+    false
+  else
+    m =+ 1
+  end
+  true
+end 
