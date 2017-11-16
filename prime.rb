@@ -12,3 +12,8 @@ def prime?(number)
   end
 
 end# Add  code here!
+
+
+m = 2
+while m <= n * n
+  m =+ 1 
