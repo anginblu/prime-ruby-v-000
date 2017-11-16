@@ -27,6 +27,7 @@ m = 2
       else
         m += 1
       end
+      true
     else
       true
 end
