@@ -1,7 +1,12 @@
 def prime?(number)
-  i = 3
-  if number <= 1 || number%2 == 0 || number%3 == 0 || number%5 == 0 || number%7 == 0 || number%11 == 0 || number%13 == 0 || number%17 == 0 || number%19 == 0 || number%23 == 0 || number%41 == 0
-    false
-  else
-    true
+  prime = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+
+  prime.each do |i|
+    if number == 2
+      true
+    elsif number%i == 0 || number < 2
+      false
+      
+  end
+
 end# Add  code here!
