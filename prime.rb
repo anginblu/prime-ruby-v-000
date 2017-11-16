@@ -9,9 +9,7 @@ def prime?(number)
       else
         true
       end
-        i += 2
-      end
+      i += 2
     end
-  end
   end
 end# Add  code here!
