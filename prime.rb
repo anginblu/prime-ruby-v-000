@@ -1,3 +1,3 @@
 def prime?(i)
-  if i = 
+  if i ==
 end# Add  code here!
