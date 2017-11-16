@@ -3,8 +3,10 @@ def prime?(number)
 
   if prime.any? {|i| i == number}
       true
-  elsif number%i == 0 || number < 2
+  elsif prime.any? {|i| number%i == 0}
       false
+  elsif number < 2
+    false
   else
       true
   end
